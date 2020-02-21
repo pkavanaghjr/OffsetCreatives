@@ -1,0 +1,85 @@
+h1{
+	font-family:spartanReg;
+}
+
+h2{
+	font-family:mavenBold, Helvetica, Arial, sans-serif;
+}
+
+h3{
+	font-family:mavenBold, Helvetica, Arial, sans-serif;
+}
+
+h4{
+	font-family:mavenMedium, Helvetica, Arial, sans-serif; 
+}
+
+h5{
+	font-family:mavenMedium, Helvetica, Arial, sans-serif;
+}
+
+h6{
+	font-family:mavenRegular, Helvetica, Arial, sans-serif;
+}
+
+p{
+	font-family:mavenRegular, Helvetica, Arial, sans-serif;
+}
+
+a{
+	text-decoration:none;
+}
+
+@font-face {
+    font-family: 'mavenBold';
+    src: url('../fonts/maven_pro_bold-webfont.eot');
+    src: url('../fonts/maven_pro_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/maven_pro_bold-webfont.woff2') format('woff2'),
+         url('../fonts/maven_pro_bold-webfont.woff') format('woff'),
+         url('../fonts/maven_pro_bold-webfont.ttf') format('truetype'),
+         url('../fonts/maven_pro_bold-webfont.svg#mavenBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'mavenMedium';
+    src: url('../fonts/maven_pro_medium-webfont.eot');
+    src: url('../fonts/maven_pro_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/maven_pro_medium-webfont.woff2') format('woff2'),
+         url('../fonts/maven_pro_medium-webfont.woff') format('woff'),
+         url('../fonts/maven_pro_medium-webfont.ttf') format('truetype'),
+         url('../fonts/maven_pro_medium-webfont.svg#mavenMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'mavenRegular';
+    src: url('../fonts/maven_pro_regular-webfont.eot');
+    src: url('../fonts/maven_pro_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/maven_pro_regular-webfont.woff2') format('woff2'),
+         url('../fonts/maven_pro_regular-webfont.woff') format('woff'),
+         url('../fonts/maven_pro_regular-webfont.ttf') format('truetype'),
+         url('../fonts/maven_pro_regular-webfont.svg#mavenRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'spartanReg';
+    src: url('../fonts/leaguespartan-bold-webfont.eot');
+    src: url('../fonts/leaguespartan-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('../fonts/leaguespartan-bold-webfont.woff') format('woff'),
+         url('../fonts/leaguespartan-bold-webfont.ttf') format('truetype'),
+         url('../fonts/leaguespartan-bold-webfont.svg#spartanReg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

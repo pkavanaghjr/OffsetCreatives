@@ -1,0 +1,1652 @@
+.container{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+/* DESKTOP STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 978px) and (max-width: 1499px){
+.container{
+	width:978px;
+}
+
+.sectionTitle{
+	left:2%;
+	top:30%;
+}
+
+.sectionCaption{
+	opacity: 0;
+	position: absolute;
+	left:2%;
+	top:45%;
+}
+
+#frameNavigation{
+	width:25px;
+	height: 25px;
+	bottom:5.9vh;
+	/*right:16vw;*/
+	right: 0px;
+}
+
+#frameWord{
+	letter-spacing: 1px;
+	font-size: 30px;
+	bottom:5.6vh;
+	/*left:68vw;*/
+	/*right:20vw;*/
+	right: 4vw;
+}
+
+/* /// NAVIGATION ///////////////////////////////////////////////////*/
+#navigation{
+	width: 0;
+	height: 88vh;
+	top:3vh;
+	right:3vw;
+}
+
+#pageNav{
+	margin: 7vh 0 25vh 5%;
+}
+
+#navigation h3{
+	line-height: 50px;
+}
+
+#contactNav{
+	margin-left: 5%;
+}
+
+#navigation h4{
+	font-size: 16px;
+	line-height: 35px;
+    margin-right: 20%;
+}
+
+
+/* /// FMA ///////////////////////////////////////////////////*/
+header{
+ 	height: 100vh;
+}
+
+#laxHeader{
+    height: 100vh;
+    top:0px;
+    left:0px;
+}
+
+header h1{
+	line-height: 84px;
+	top:40vh;
+	left:50vw;
+}
+
+#offsetLogo{
+	width: 30%;
+	padding-top:25%;
+	margin-bottom:150px;	
+	top:35vh;
+	left:49vw;
+}
+
+/* /// ABOUT ///////////////////////////////////////////////////*/
+#aboutSection{
+	padding:250px 0 250px 0;
+}
+
+
+/* /// PROJECTS ///////////////////////////////////////////////////*/
+#projectSection{
+	padding:250px 0 250px 0;	
+}
+
+#sideNav{
+	left:4.2vh;
+	top:32vh;
+}
+
+#sideNav .projectNLN{
+	width:25px;
+	/*height: 25px;*/
+	margin-bottom: 15px;
+}
+
+#sideUp,#sideDown{
+	display: none;
+}
+
+.project{
+	width: 90vw;
+	height: 80vh;
+	top:5vh;
+	left:5vw;
+}
+
+.project h2{	
+	/*padding:15% 0px 3% 0;*/
+	margin:0 auto;
+    top:40%;
+}
+
+#portfolio .closeProject{
+	/*width:25px;
+	height: 25px;
+	*/top:50%;
+	right:10%;
+}
+
+#portfolio .hiddenContent{
+	margin-top:20vh;
+	height: 0;
+	/*padding:50px 0 100px 0;	*/
+	width: 100%;
+}
+
+#portfolio .hiddenContent p{
+	margin:50px 0 50px 0;
+}
+
+#portfolio .hiddenContent img{
+	/*height: 70vh;*/
+	margin-bottom:100px;
+}
+
+#portfolio .hiddenContent h6{
+	margin-bottom:100px;
+}
+
+.nextProject{
+	width: 100%;
+	height: 50px;
+    margin-bottom: 25px;
+}
+
+#portfolio .hiddenContent h5{
+	color:#fff;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+
+/* /// SERVICES ///////////////////////////////////////////////////*/
+#serviceSection{
+	top:450vh;
+	padding:250px 0 250px 0;
+}
+
+.service{
+	width:306px;
+	height: 100px;
+	margin-right: 30px;
+}
+
+
+/* /// FOOTER ///////////////////////////////////////////////////*/
+footer{
+	top:450vh;
+	padding:250px 0 250px 0;
+    height: 40vh;
+}
+
+footer .sectionTitle{
+	/*padding:250px 0 0 0;*/
+	left:2%;
+	top:30%;    
+}
+
+footer .sectionCaption{
+	left:2%;
+	top:40%;
+}
+
+#contactForm{
+	width: 60%;
+	left:2%;
+	top:50%;	
+}
+
+#contactForm input[type=text], #contactForm input[type=email]{
+	width:100%;	
+	font-size: 14px;
+	height: 35px;
+	margin:0px auto 10px auto;
+	border-bottom:4px rgba(101,203,201,1) solid;			
+}
+
+#contactForm textarea{
+	width:100%;	
+	font-size: 14px;
+	height: 75px;
+	margin:0px auto 10px auto;
+	border-bottom:4px rgba(101,203,201,1) solid;			
+}
+
+#contactForm input[type=button]{
+/*	border:4px #4D4D4F solid;			
+	font-size: 18px;
+	letter-spacing: 3px;
+	width:40%;
+	height: 35px;
+*/}
+
+
+
+#thankYou{
+	width: 60%;
+	left:2%;
+	top:50%;	
+}
+
+#thankYou h3{
+	font-size: 24px;
+	margin-bottom:2%;
+}
+
+#thankYou h5 span{
+	font-size: 24px;
+}
+
+#thankYou h6{
+	font-size: 14px;
+	line-height: 18px;
+	padding-right: 1%;
+}
+
+
+
+
+} /*<-- END DESKTOP STYLES ///////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LARGE DESKTOP STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 1500px){
+	.container{
+		width:1200px;
+	}
+
+	.sectionTitle{
+		left:2%;
+		top:30%;
+	}
+
+	.sectionCaption{
+		opacity: 0;
+		position: absolute;
+		left:2%;
+		top:45%;
+	}
+
+	#frameNavigation{
+		width:30px;
+		height: 30px;
+		bottom:6.5vh;
+		/*right:16vw;*/
+		right: 0px;
+	}
+
+	#frameWord{
+		letter-spacing: 1px;
+		font-size: 40px;
+		bottom:5.5vh;
+		/*left:68vw;*/
+		/*right:20vw;*/
+		right: 4vw;
+	}
+
+	/* /// NAVIGATION ///////////////////////////////////////////////////*/
+	#navigation{
+		width: 0;
+		height: 88vh;
+		top:3vh;
+		right:3vw;
+	}
+
+	#pageNav{
+		margin: 7vh 0 35vh 5%;
+	}
+
+	#navigation h3{
+		font-size: 34px;
+		line-height: 60px;
+	}
+
+	#contactNav{
+		margin-left: 5%;
+	}
+
+	#navigation h4{
+		font-size: 21px;
+		line-height: 30px;
+	    margin-right: 20%;
+	}
+
+
+	/* /// FMA ///////////////////////////////////////////////////*/
+	header{
+	 	height: 100vh;
+	}
+
+	#laxHeader{
+	    height: 100vh;
+	    top:0px;
+	    left:0px;
+	}
+
+	header h1{
+		line-height: 84px;
+		top:40vh;
+		left:50vw;
+	}
+
+	#offsetLogo{
+		width: 30%;
+		padding-top:25%;
+		margin-bottom:150px;	
+		top:35vh;
+		left:49vw;
+	}
+
+	/* /// ABOUT ///////////////////////////////////////////////////*/
+	#aboutSection{
+		padding:250px 0 250px 0;
+	}
+
+
+	/* /// PROJECTS ///////////////////////////////////////////////////*/
+	#projectSection{
+		padding:250px 0 250px 0;	
+	}
+
+	#sideNav{
+		left:5vh;
+		top:32vh;
+	}
+
+	#sideNav .projectNLN{
+		width:25px;
+		/*height: 25px;*/
+		margin-bottom: 40px;
+	}
+
+	#sideUp,#sideDown{
+		display: none;
+	}
+
+	.project{
+		width: 88vw;
+		height: 80vh;
+		top:5vh;
+		left:6vw;
+	}
+
+	.project h2{	
+		/*padding:15% 0px 3% 0;*/
+		margin:0 auto;
+	    top:40%;
+	}
+
+	#portfolio .closeProject{
+		width:25px;
+		height: 25px;
+		top:50%;
+		right:10%;
+	}
+
+	#portfolio .hiddenContent{
+		margin-top:20vh;
+		height: 0;
+		/*padding:50px 0 100px 0;	*/
+		width: 100%;
+	}
+
+	#portfolio .hiddenContent p{
+		margin:50px 0 50px 0;
+	}
+
+	#portfolio .hiddenContent img{
+		height: 70vh;
+		margin-bottom:5px;
+	}
+
+	#portfolio .hiddenContent h6{
+		margin-bottom:100px;
+	}
+
+	.nextProject{
+		width: 100%;
+		height: 50px;
+	    margin-bottom: 25px;
+	}
+
+	#portfolio .hiddenContent h5{
+		color:#fff;
+		text-align: center;
+		line-height: 50px;
+	}
+
+	#debs{
+	    top:45vh;
+	}
+
+	#grayArea{
+	    top:132vh;
+	}
+
+	#chamber{
+	    top:219vh;
+	}
+
+	#be{
+	    top:306vh;
+	}
+
+	#midwest{
+	    top:393vh;
+	}
+
+
+	/* /// SERVICES ///////////////////////////////////////////////////*/
+	#serviceSection{
+		top:450vh;
+		padding:250px 0 250px 0;
+	}
+
+	.service{
+		width:306px;
+		height: 100px;
+		margin-right: 30px;
+	}
+
+
+	/* /// FOOTER ///////////////////////////////////////////////////*/
+	footer{
+		top:450vh;
+		padding:250px 0 250px 0;
+	    height: 60vh;
+	}
+   
+	footer .sectionTitle{
+		/*padding:250px 0 0 0;*/
+		left:2%;
+		top:30%;    
+	}
+
+	footer .sectionCaption{
+		left:2%;
+		top:40%;
+	}
+
+
+	#contactForm{
+		width: 60%;
+		left:2%;
+		top:50%;	
+	}
+
+	#contactForm input[type=text], #contactForm input[type=email]{
+		width:100%;	
+		font-size: 14px;
+		height: 35px;
+		margin:0px auto 10px auto;
+		border-bottom:4px rgba(101,203,201,1) solid;			
+	}
+
+	#contactForm textarea{
+		width:100%;	
+		font-size: 14px;
+		height: 75px;
+		margin:0px auto 10px auto;
+		border-bottom:4px rgba(101,203,201,1) solid;			
+	}
+
+	#contactForm input[type=button]{
+		border:4px #4D4D4F solid;			
+		font-size: 18px;
+		letter-spacing: 3px;
+		width:40%;
+		height: 35px;
+	}
+
+
+	#thankYou{
+		width: 60%;
+		left:2%;
+		top:50%;		
+	}
+
+	#thankYou h3{
+		font-size: 24px;
+		margin-bottom:2%;
+	}
+
+	#thankYou h5 span{
+		font-size: 24px;
+	}
+
+	#thankYou h6{
+		font-size: 14px;
+		line-height: 18px;
+		padding-right: 1%;
+	}
+
+
+} /*<-- END LARGE DESKTOP STYLES ///////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET LANDSCAPE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 700px) and (max-width: 977px) and (orientation: landscape){
+.container{
+	width:93.75%; /* 720 pixels at a 768 pixel screen width (iPads) */
+}
+
+.sectionTitle{
+	left:2%;
+	top:30%;
+}
+
+.sectionCaption{
+	opacity: 0;
+	position: absolute;
+	left:2%;
+	top:45%;
+}
+
+#frameNavigation{
+	width:17px;
+	height: 17px;
+	bottom:7vh;
+	/*right:16vw;*/
+	right: 0px;
+}
+
+#frameWord{
+	letter-spacing: 1px;
+	font-size: 24px;
+	bottom:5.9vh;
+	/*left:68vw;*/
+	/*right:20vw;*/
+	right: 4vw;
+}
+
+/* /// NAVIGATION ///////////////////////////////////////////////////*/
+#navigation{
+	width: 0;
+	height: 88vh;
+	top:3vh;
+	right:3vw;
+}
+
+#pageNav{
+	margin: 7vh 0 35vh 5%;
+}
+
+#navigation h3{
+	line-height: 50px;
+}
+
+#contactNav{
+	margin-left: 5%;
+}
+
+#navigation h4{
+	font-size: 16px;
+	line-height: 30px;
+    margin-right: 10%;
+}
+
+
+/* /// FMA ///////////////////////////////////////////////////*/
+header{
+ 	height: 100vh;
+}
+
+#laxHeader{
+    height: 100vh;
+    top:0px;
+    left:0px;
+}
+
+header h1{
+	line-height: 84px;
+	top:40vh;
+	left:50vw;
+}
+
+#offsetLogo{
+	width: 45%;
+	padding-top:25%;
+	margin-bottom:150px;	
+	top:48vh;
+	left:49vw;
+}
+
+/* /// ABOUT ///////////////////////////////////////////////////*/
+#aboutSection{
+	padding:250px 0 250px 0;
+}
+
+
+/* /// PROJECTS ///////////////////////////////////////////////////*/
+#projectSection{
+	padding:250px 0 250px 0;	
+}
+
+#sideNav{
+	left:2.2vh;
+	top:32vh;
+}
+
+#sideNav .projectNLN{
+	width:25px;
+	/*height: 25px;*/
+	margin-bottom: 15px;
+}
+
+#sideUp,#sideDown{
+	display: none;
+}
+
+.project{
+	width: 86vw;
+	height: 80vh;
+	top:5vh;
+	left:7.5vw;
+}
+
+.project h2{	
+	/*padding:15% 0px 3% 0;*/
+	margin:0 auto;
+    top:40%;
+}
+
+#portfolio .closeProject{
+	width:25px;
+	height: 25px;
+	top:50%;
+	right:10%;
+}
+
+#portfolio .hiddenContent{
+	margin-top:20vh;
+	height: 0;
+	/*padding:50px 0 100px 0;	*/
+	width: 100%;
+}
+
+#portfolio .hiddenContent p{
+	margin:50px 0 50px 0;
+}
+
+#portfolio .hiddenContent img{
+	height: 70vh;
+	margin-bottom:5px;
+}
+
+#portfolio .hiddenContent h6{
+	margin-bottom:100px;
+}
+
+.nextProject{
+	width: 100%;
+	height: 50px;
+    margin-bottom: 25px;
+}
+
+#portfolio .hiddenContent h5{
+	color:#fff;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+
+/* /// SERVICES ///////////////////////////////////////////////////*/
+#serviceSection{
+	top:450vh;
+	padding:250px 0 250px 0;
+}
+
+.service{
+	width:306px;
+	height: 100px;
+	margin-right: 30px;
+}
+
+
+/* /// FOOTER ///////////////////////////////////////////////////*/
+footer{
+	top:450vh;
+	padding:250px 0 250px 0;
+    height: 40vh;
+}
+
+footer .sectionTitle{
+	/*padding:250px 0 0 0;*/
+	left:2%;
+	top:30%;    
+}
+
+footer .sectionCaption{
+	left:2%;
+	top:40%;
+}
+
+#contactForm{
+	width: 60%;
+	left:2%;
+	top:50%;	
+}
+
+#contactForm input[type=text], #contactForm input[type=email]{
+	width:100%;	
+	font-size: 14px;
+	height: 35px;
+	margin:0px auto 10px auto;
+	border-bottom:4px rgba(101,203,201,1) solid;			
+}
+
+#contactForm textarea{
+	width:100%;	
+	font-size: 14px;
+	height: 75px;
+	margin:0px auto 10px auto;
+	border-bottom:4px rgba(101,203,201,1) solid;			
+}
+
+#contactForm input[type=button]{
+	border:4px #4D4D4F solid;			
+	font-size: 18px;
+	letter-spacing: 3px;
+	width:40%;
+	height: 35px;
+}
+
+
+#thankYou{
+	width: 60%;
+	left:2%;
+	top:50%;	
+}
+
+#thankYou h3{
+	font-size: 24px;
+	margin-bottom:2%;
+}
+
+#thankYou h5 span{
+	font-size: 24px;
+}
+
+#thankYou h6{
+	font-size: 14px;
+	line-height: 18px;
+	padding-right: 1%;
+}
+
+
+} /*<-- END TABLET LANDSCAPE STYLES ///////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET POTRAIT STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 700px) and (max-width: 977px) and (orientation: portrait){
+	.container{
+		width:93.75%; /* 720 pixels at a 768 pixel screen width (iPads) */
+	}
+
+	.sectionTitle{
+		left:2%;
+		top:30%;
+	}
+
+	.sectionCaption{
+		opacity: 0;
+		position: absolute;
+		left:2%;
+		top:45%;
+	}
+
+	#frameNavigation{
+		width:17px;
+		height: 17px;
+		bottom:6.9vh;
+		/*right:16vw;*/
+		right: 0px;
+	}
+
+	#frameWord{
+		letter-spacing: 1px;
+		font-size: 20px;
+		bottom:6.5vh;
+		/*left:68vw;*/
+		/*right:20vw;*/
+		right: 4vw;
+	}
+
+	/* /// NAVIGATION ///////////////////////////////////////////////////*/
+	#navigation{
+		width: 0;
+		height: 88vh;
+		top:3vh;
+		right:3vw;
+	}
+
+	#pageNav{
+		margin: 7vh 0 35vh 5%;
+	}
+
+	#navigation h3{
+		line-height: 50px;
+	}
+
+	#contactNav{
+		margin-left: 5%;
+	}
+
+	#navigation h4{
+		font-size: 16px;
+		line-height: 30px;
+	    margin-right: 10%;
+	}
+
+
+	/* /// FMA ///////////////////////////////////////////////////*/
+	header{
+	 	height: 100vh;
+	}
+
+	#laxHeader{
+	    height: 100vh;
+	    top:0px;
+	    left:0px;
+	}
+
+	header h1{
+		line-height: 84px;
+		top:40vh;
+		left:50vw;
+	}
+
+	#offsetLogo{
+		width: 45%;
+		padding-top:25%;
+		margin-bottom:150px;	
+		top:48vh;
+		left:49vw;
+	}
+
+	/* /// ABOUT ///////////////////////////////////////////////////*/
+	#aboutSection{
+		padding:250px 0 250px 0;
+	}
+
+
+	/* /// PROJECTS ///////////////////////////////////////////////////*/
+	#projectSection{
+		padding:250px 0 250px 0;	
+	}
+
+	#sideNav{
+		left:2.2vh;
+		top:32vh;
+	}
+
+	#sideNav .projectNLN{
+		width:25px;
+		/*height: 25px;*/
+		margin-bottom: 15px;
+	}
+
+	#sideUp,#sideDown{
+		display: none;
+	}
+
+	.project{
+		width: 86vw;
+		height: 80vh;
+		top:5vh;
+		left:7.5vw;
+	}
+
+	.project h2{	
+		/*padding:15% 0px 3% 0;*/
+		margin:0 auto;
+	    top:40%;
+	}
+
+	#portfolio .closeProject{
+		width:25px;
+		height: 25px;
+		top:50%;
+		right:10%;
+	}
+
+	#portfolio .hiddenContent{
+		margin-top:20vh;
+		height: 0;
+		/*padding:50px 0 100px 0;	*/
+		width: 100%;
+	}
+
+	#portfolio .hiddenContent p{
+		margin:50px 0 50px 0;
+	}
+
+	#portfolio .hiddenContent img{
+		height: 70vh;
+		margin-bottom:5px;
+	}
+
+	#portfolio .hiddenContent h6{
+		margin-bottom:100px;
+	}
+
+	.nextProject{
+		width: 100%;
+		height: 50px;
+	    margin-bottom: 25px;
+	}
+
+	#portfolio .hiddenContent h5{
+		color:#fff;
+		text-align: center;
+		line-height: 50px;
+	}
+
+	/* /// SERVICES ///////////////////////////////////////////////////*/
+	#serviceSection{
+		top:450vh;
+		padding:250px 0 250px 0;
+	}
+
+	.service{
+		width:306px;
+		height: 100px;
+		margin-right: 30px;
+	}
+
+
+	/* /// FOOTER ///////////////////////////////////////////////////*/
+	footer{
+		top:450vh;
+		padding:250px 0 250px 0;
+	    height: 40vh;
+	}
+
+	footer .sectionTitle{
+		/*padding:250px 0 0 0;*/
+		left:2%;
+		top:30%;    
+	}
+
+	footer .sectionCaption{
+		left:2%;
+		top:40%;
+	}
+
+	#contactForm{
+		width: 70%;
+		left:2%;
+		top:50%;	
+	}
+
+	#contactForm input[type=text], #contactForm input[type=email]{
+		width:100%;	
+		font-size: 14px;
+		height: 35px;
+		margin:0px auto 10px auto;
+		border-bottom:4px rgba(101,203,201,1) solid;			
+	}
+
+	#contactForm textarea{
+		width:100%;	
+		font-size: 14px;
+		height: 75px;
+		margin:0px auto 10px auto;
+		border-bottom:4px rgba(101,203,201,1) solid;			
+	}
+
+	#contactForm input[type=button]{
+		border:4px #4D4D4F solid;			
+		font-size: 18px;
+		letter-spacing: 3px;
+		width:40%;
+		height: 35px;
+	}
+
+
+	#thankYou{
+		width: 60%;
+		left:2%;
+		top:50%;	
+	}
+
+	#thankYou h3{
+		font-size: 24px;
+		margin-bottom:2%;
+	}
+
+	#thankYou h5 span{
+		font-size: 24px;
+	}
+
+	#thankYou h6{
+		font-size: 14px;
+		line-height: 18px;
+		padding-right: 1%;
+	}
+
+
+
+} /*<-- END TABLET PORTRAIT STYLES ///////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE LANDSCAPE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* MOBILE LANDSCAPE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* MOBILE LANDSCAPE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* MOBILE LANDSCAPE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 699px) and (orientation: landscape){
+.container{
+	width:87.5%; /* 280 pixels at a 320 pixel screen width (iPhones) */
+}
+
+.sectionTitle{
+	left:2%;
+	top:30%;
+}
+
+.sectionCaption{
+	opacity: 0;
+	position: absolute;
+	left:2%;
+	top:45%;
+}
+
+#frameNavigation{
+	width:17px;
+	height: 17px;
+	bottom:6vh;
+	/*right:16vw;*/
+	right: 0px;
+}
+
+
+#frameWord{
+	letter-spacing: 1px;
+	font-size: 20px;
+	bottom:5vh;
+	/*left:68vw;*/
+	/*right:20vw;*/
+	right: 4vw;
+}
+
+/* /// NAVIGATION ///////////////////////////////////////////////////*/
+#navigation{
+	width: 0;
+	height: 88vh;
+	top:3vh;
+	right:3vw;
+}
+
+#pageNav{
+	margin: 7vh 0 35vh 5%;
+}
+
+#navigation h3{
+	line-height: 50px;
+}
+
+#contactNav{
+	margin-left: 5%;
+}
+
+#navigation h4{
+	font-size: 16px;
+	line-height: 30px;
+    margin-right: 10%;
+}
+
+
+/* /// FMA ///////////////////////////////////////////////////*/
+header{
+ 	height: 100vh;
+}
+
+#laxHeader{
+    height: 100vh;
+    top:0px;
+    left:0px;
+}
+
+header h1{
+	font-size:33px; 
+	line-height: 45px;
+	top:40vh;
+	left:50vw;
+}
+
+#offsetLogo{
+	width: 40%;
+	padding-top:25%;
+	margin-bottom:150px;	
+	top:40vh;
+	left:49vw;
+}
+
+/* /// ABOUT ///////////////////////////////////////////////////*/
+#aboutSection{
+	padding:250px 0 250px 0;
+}
+
+
+/* /// PROJECTS ///////////////////////////////////////////////////*/
+#projectSection{
+	padding:250px 0 250px 0;	
+}
+
+#sideNav{
+	left:3.9vh;
+	top:32vh;
+}
+
+#sideNav .projectNLN{
+	display: none;
+}
+
+#sideUp,#sideDown{
+	width:20px;
+	height: 45px;
+	margin-bottom: 15px;
+	display: block;
+    background-color:rgba(101,203,201,1);
+	cursor: pointer;
+}
+
+.project{
+	width: 84vw;
+	height: 80vh;
+	top:5vh;
+	left:8.5vw;
+}
+
+.project h2{	
+	/*padding:15% 0px 3% 0;*/
+	margin:0 auto;
+    top:40%;
+}
+
+#portfolio .closeProject{
+	width:25px;
+	height: 25px;
+	top:50%;
+	right:10%;
+}
+
+#portfolio .hiddenContent{
+	margin-top:20vh;
+	height: 0;
+	/*padding:50px 0 100px 0;	*/
+	width: 100%;
+}
+
+#portfolio .hiddenContent p{
+	margin:50px 0 50px 0;
+}
+
+#portfolio .hiddenContent img{
+	height: 70vh;
+	margin-bottom:5px;
+}
+
+#portfolio .hiddenContent h6{
+	margin-bottom:100px;
+}
+
+.nextProject{
+	width: 100%;
+	height: 50px;
+    margin-bottom: 25px;
+}
+
+#portfolio .hiddenContent h5{
+	color:#fff;
+	text-align: center;
+	line-height: 50px;
+}
+
+#debs{
+    top:85vh;
+}
+
+#grayArea{
+    top:172vh;
+}
+
+#chamber{
+    top:259vh;
+}
+
+#be{
+    top:346vh;
+}
+
+#midwest{
+    top:433vh;
+}
+
+
+
+/* /// SERVICES ///////////////////////////////////////////////////*/
+#serviceSection{
+	top:400vh;
+	padding:250px 0 250px 0;
+}
+
+.service{
+	width:306px;
+	height: 100px;
+	margin-right: 30px;
+}
+
+
+/* /// FOOTER ///////////////////////////////////////////////////*/
+footer{
+	top:400vh;
+	padding:250px 0 200px 0;
+    height: 40vh;
+}
+
+footer .sectionTitle{
+	/*padding:250px 0 0 0;*/
+	left:2%;
+	top:30%;    
+}
+
+footer .sectionCaption{
+	left:2%;
+	top:40%;
+}
+
+#contactForm{
+	width: 70%;
+	left:2%;
+	top:50%;	
+}
+
+#contactForm input[type=text], #contactForm input[type=email]{
+	width:100%;	
+	font-size: 14px;
+	height: 35px;
+	margin:0px auto 10px auto;
+	border-bottom:4px rgba(101,203,201,1) solid;			
+}
+
+#contactForm textarea{
+	width:100%;	
+	font-size: 14px;
+	height: 75px;
+	margin:0px auto 10px auto;
+	border-bottom:4px rgba(101,203,201,1) solid;			
+}
+
+#contactForm input[type=button]{
+	border:4px #4D4D4F solid;			
+	font-size: 18px;
+	letter-spacing: 3px;
+	width:40%;
+	height: 35px;
+}
+
+
+#thankYou{
+	width: 60%;
+	left:2%;
+	top:50%;	
+}
+
+#thankYou h3{
+	font-size: 24px;
+	margin-bottom:2%;
+}
+
+#thankYou h5 span{
+	font-size: 24px;
+}
+
+#thankYou h6{
+	font-size: 14px;
+	line-height: 18px;
+	padding-right: 1%;
+}
+
+
+
+} /*<-- END MOBILE LANDSCAPE STYLES ///////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE POTRAIT STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 699px) and (orientation: portrait){
+.container{
+	width:87.5%; /* 280 pixels at a 320 pixel screen width (iPhones) */
+}
+
+.sectionTitle{
+	left:2%;
+	top:20%;
+}
+
+.sectionCaption{
+	opacity: 0;
+	position: absolute;
+	left:2%;
+	top:35%;
+}
+
+#mobileFrameNavigation{
+	width:17px;
+	height: 17px;
+	bottom:6.9vh;
+	/*right:16vw;*/
+	right: 0px;
+}
+
+#frameWord{
+	letter-spacing: 1px;
+	font-size: 21px;
+	bottom:6.4vh;
+	/*left:68vw;*/
+	/*right:20vw;*/
+	right: 4vw;
+}
+
+/* /// NAVIGATION ///////////////////////////////////////////////////*/
+#navigation{
+	width: 0;
+	height: 88vh;
+	top:3vh;
+	right:4vw;
+}
+
+#pageNav{
+	margin: 7vh 0 35vh 5%;
+}
+
+#navigation h3{
+	line-height: 50px;
+}
+
+#contactNav{
+	margin-left: 5%;
+}
+
+#navigation h4{
+	font-size: 16px;
+	line-height: 30px;
+    margin-right: 10%;
+}
+
+
+/* /// FMA ///////////////////////////////////////////////////*/
+header{
+ 	height: 100vh;
+}
+
+#laxHeader{
+    height: 100vh;
+    top:0px;
+    left:0px;
+}
+
+header h1{
+	font-size: 38px;
+	line-height: 50px;
+	top:40vh;
+	left:50vw;
+}
+
+#offsetLogo{
+	width: 65%;
+	padding-top:25%;
+	margin-bottom:150px;	
+	top:50vh;
+	left:49vw;
+}
+
+/* /// ABOUT ///////////////////////////////////////////////////*/
+#aboutSection{
+	height: 650px;
+}
+
+
+/* /// PROJECTS ///////////////////////////////////////////////////*/
+#projectSection{
+	padding:250px 0 250px 0;	
+}
+
+#sideNav{
+	left:1vh;
+	top:32vh;
+}
+
+#sideNav .projectNLN{
+	display: none;
+}
+
+#sideUp,#sideDown{
+	width:20px;
+	height: 45px;
+	margin-bottom: 15px;
+	display: block;
+    background-color:rgba(101,203,201,1);
+	cursor: pointer;
+	z-index: 999;
+}
+
+.project{
+	width: 84vw;
+	height: 80vh;
+	top:5vh;
+	left:8.5vw;
+}
+
+.project h2{	
+	/*padding:15% 0px 3% 0;*/
+	margin:0 auto;
+    top:40%;
+}
+
+#portfolio .closeProject{
+	width:25px;
+	height: 25px;
+	top:50%;
+	right:10%;
+}
+
+#portfolio .hiddenContent{
+	margin-top:20vh;
+	height: 0;
+	/*padding:50px 0 100px 0;	*/
+	width: 100%;
+}
+
+#portfolio .hiddenContent p{
+	margin:50px 0 50px 0;
+}
+
+#portfolio .hiddenContent img{
+	margin-bottom:50px;
+}
+
+#portfolio .hiddenContent h6{
+	margin-bottom:100px;
+}
+
+.nextProject{
+	width: 100%;
+	height: 50px;
+    margin-bottom: 25px;
+}
+
+#portfolio .hiddenContent h5{
+	color:#fff;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+
+/* /// SERVICES ///////////////////////////////////////////////////*/
+#serviceSection{
+	top:450vh;
+	padding:250px 0 250px 0;
+}
+
+.service{
+	width:306px;
+	height: 100px;
+	margin-right: 30px;
+}
+
+
+/* /// FOOTER ///////////////////////////////////////////////////*/
+footer{
+	top:450vh;
+	padding:250px 0 250px 0;
+    height: 50vh;
+}
+
+footer .sectionTitle{
+	/*padding:250px 0 0 0;*/
+	left:2%;
+	top:30%;    
+}
+
+footer .sectionCaption{
+	left:2%;
+	top:37%;
+}
+
+#contactForm{
+	width: 80%;
+	left:2%;
+	top:55%;	
+}
+
+#contactForm input[type=text], #contactForm input[type=email]{
+	width:100%;	
+	font-size: 14px;
+	height: 35px;
+	margin:0px auto 10px auto;
+	border-bottom:4px rgba(101,203,201,1) solid;			
+}
+
+#contactForm textarea{
+	width:100%;	
+	font-size: 14px;
+	height: 75px;
+	margin:0px auto 10px auto;
+	border-bottom:4px rgba(101,203,201,1) solid;			
+}
+
+#contactForm input[type=button]{
+	border:4px #4D4D4F solid;			
+	font-size: 16px;
+	letter-spacing: 3px;
+	width:40%;
+	height: 35px;
+}
+
+
+#thankYou{
+	width: 60%;
+	left:2%;
+	top:50%;	
+}
+
+#thankYou h3{
+	font-size: 24px;
+	margin-bottom:2%;
+}
+
+#thankYou h5 span{
+	font-size: 24px;
+}
+
+#thankYou h6{
+	font-size: 14px;
+	line-height: 18px;
+	padding-right: 1%;
+}
+
+
+} /*<-- END MOBILE PORTRAIT STYLES ///////////////////*/
+
+

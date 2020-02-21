@@ -1,0 +1,109 @@
+body{
+	overflow: hidden;
+}
+
+.container{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#home{
+	width:100vw;
+	height:100vh;
+	position: absolute;
+	box-shadow:1px 3px 20px 3px rgba(0,0,0,.3);
+}
+
+h1{
+	font-size: 40px;
+	text-align: center;
+	position: absolute;
+	top:50%;
+	left:47%;
+}
+
+a{
+	text-align: center;
+	line-height: 100px;
+	color: #fff;
+}
+
+.aboutButton,.aboutHome,.workAbout,.servicesAbout,.newsAbout{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100px;
+	height:100px;
+	background-color: #f00;
+	cursor: pointer;
+}
+
+.workButton,.workHome,.aboutWork,.servicesWork,.newsWork{
+	position: absolute;
+	top:0px;
+	right:0px;
+	width:100px;
+	height:100px;
+	background-color: #0f0;
+	cursor: pointer;
+}
+
+.servicesButton,.servicesHome,.aboutServices,.workServices,.newsServices{
+	position: absolute;
+	bottom:0px;
+	left:0px;
+	width:100px;
+	height:100px;
+	background-color: #00f;
+	cursor: pointer;
+}
+
+.newsButton,.newsHome,.aboutNews,.workNews,.servicesNews{
+	position: absolute;
+	bottom:0px;
+	right:0px;
+	width:100px;
+	height:100px;
+	background-color: #f0f;
+	cursor: pointer;
+}
+
+#about{
+	width:100vw;
+	height:100vh;
+	background-color: #f00;
+	box-shadow:1px 3px 20px 3px rgba(0,0,0,.3);
+	position: absolute;
+	top:-100%;
+	left:-100%;
+}
+
+#work{
+	width:100vw;
+	height:100vh;
+	background-color: #0f0;
+	box-shadow:1px 3px 20px 3px rgba(0,0,0,.3);
+	position: absolute;
+	top:-100%;
+	left:100%;
+}
+
+#services{
+	width:100vw;
+	height:100vh;
+	background-color: #00f;
+	box-shadow:1px 3px 20px 3px rgba(0,0,0,.3);
+	position: absolute;
+	top:100%;
+	left:-100%;
+}
+
+#news{
+	width:100vw;
+	height:100vh;
+	background-color: #f0f;
+	box-shadow:1px 3px 20px 3px rgba(0,0,0,.3);
+	position: absolute;
+	top:100%;
+	left:100%;
+}

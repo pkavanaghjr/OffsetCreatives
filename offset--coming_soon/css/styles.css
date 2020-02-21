@@ -1,0 +1,253 @@
+body{
+
+}
+.container{
+	margin-left:auto;
+	margin-right:auto;
+}
+.clear{
+	clear:both;
+}
+header{
+
+}
+#contact{
+	position: fixed;
+	width:100px;
+	height:40px;
+	bottom:0;
+	right:0;
+	background-image:url('../images/contact-us-1.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0;
+}
+#contact:hover{
+	background-image:url('../images/contact-us.png');
+}
+#clients{
+	position: fixed;
+	width:100px;
+	height:40px;
+	bottom:0;
+	left:0;
+	background-image:url('../images/leftCorner.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#clientList .rowEnd{
+	margin-right: 0%;
+}
+.clientImage{
+	width:100px;
+	height:100px;
+}
+#instyPrints{
+	background-image:url('../images/gray_insty.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#instyPrints:hover{
+	background-image:url('../images/color_insty.png');
+}
+#chipChamber{
+	background-image:url('../images/gray_chipChamber.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#chipChamber:hover{
+	background-image:url('../images/color_chipChamber.png');
+}
+#grayArea{
+	background-image:url('../images/gray_grayArea.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#grayArea:hover{
+	background-image:url('../images/color_grayArea.png');
+}
+#debs{
+	background-image:url('../images/gray_debs.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#debs:hover{
+	background-image:url('../images/color_debs.png');
+}
+#midwest{
+	background-image:url('../images/gray_midwest.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#midwest:hover{
+	background-image:url('../images/color_midwest.png');
+}
+#be{
+	background-image:url('../images/gray_be.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#be:hover{
+	background-image:url('../images/color_be.png');
+}
+
+/* DESKTOP STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 978px){
+.container{
+	width:978px;
+}
+#fmaLogo{
+	width: 250px;
+	position:absolute;
+	top:40%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	opacity: 0;
+}
+#clientList{
+	width:850px;
+	margin:0px auto 0px auto;
+	position:absolute;
+	top:85%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+
+}
+#clientList li{
+	float:left;
+	margin-right: 50px;
+	opacity: 0;
+}
+
+} /*<- CLOSE DESKTOP RESPONSIVE*/
+
+/* TABLET STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 768px) and (max-width: 977px){
+	.container{
+		width:93.75%; /* 720 pixels at a 768 pixel screen width (iPads) */
+	}
+	#fmaLogo{
+		width: 250px;
+		position:absolute;
+		top:40%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		-o-transform:translate(-50%,-50%);
+		-webkit-transform:translate(-50%,-50%);
+		-moz-transform:translate(-50%,-50%);
+		-ms-transform:translate(-50%,-50%);
+		opacity: 0;
+	}
+	#clientList{
+		width:725px;
+		margin:0px auto 0px auto;
+		position:absolute;
+		top:80%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		-o-transform:translate(-50%,-50%);
+		-webkit-transform:translate(-50%,-50%);
+		-moz-transform:translate(-50%,-50%);
+		-ms-transform:translate(-50%,-50%);
+
+	}
+	#clientList li{
+		float:left;
+		margin-right: 25px;
+		opacity: 0;
+	}
+
+
+} /*<- CLOSE TABLET RESPONSIVE*/
+
+/* MOBILE WIDE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 767px) and (orientation: landscape){
+.container{
+	width:87.5%; /* 280 pixels at a 320 pixel screen width (iPhones) */
+}
+#fmaLogo{
+	width: 250px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	opacity: 0;
+}
+#clientList{
+	width:450px;
+	margin:0px auto 100px auto;
+	position:absolute;
+	top:150vh;
+	left:55%;
+	transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+
+}
+#clientList li{
+	float:left;
+	margin-right: 10%;
+	margin-bottom: 10%;
+	opacity: 0;
+}
+#clientList li:nth-child(3n){
+	margin-right: 0px;
+}
+
+} /*<- CLOSE MOBILE RESPONSIVE*/
+
+
+
+/* MOBILE TALL STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 700px) and (orientation: portrait){
+.container{
+	width:87.5%; /* 280 pixels at a 320 pixel screen width (iPhones) */
+}
+#fmaLogo{
+	width: 250px;
+	position:absolute;
+	top:30%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	opacity: 0;
+}
+#clientList{
+	width:250px;
+	margin:0px auto 100px auto;
+	position:absolute;
+	top:90vh;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+
+}
+#clientList li{
+	float:left;
+	margin-right: 10%;
+	margin-bottom: 10%;
+	opacity: 0;
+}
+
+
+} /*<- CLOSE MOBILE RESPONSIVE*/
